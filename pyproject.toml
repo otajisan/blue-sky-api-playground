@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "blue_sky_api_playground"
+version = "0.1.0"
+description = ""
+authors = ["otajisan <mtaji@morningcode.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+atproto = "^0.0.40"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-mock = "^3.12.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
